@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a9d8c1b9-6391-48bb-9153-653c1bba3f1b" name="Changes" comment="Explorando tipos de dados" />
+    <list default="true" id="a9d8c1b9-6391-48bb-9153-653c1bba3f1b" name="Changes" comment="Explorando tipos de dados">
+      <change afterPath="$PROJECT_DIR$/src/dev/gab/kickstart/aula5/exercicios/sistemaLiberacoes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dev/gab/kickstart/aula6/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,9 +24,21 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 2
-}]]></component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;GabrielnSoares&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/GabrielnSoares/Revisoes-Java.git&quot;,
+    &quot;accountId&quot;: &quot;09cd331c-c481-4a22-bbb4-221eefd7816c&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
   <component name="ProjectId" id="2qxbc1y9RT6bbBzrBptXRzedxot" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -32,12 +48,14 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.Main.executor": "Run",
+    "Application.dev.gab.kickstart.aula6.Main.executor": "Run",
+    "Application.sistemaLiberacoes.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.dev.gab.kickstart.aula6.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="dev.gab.kickstart.aula5.Main" />
       <module name="modulo-variaveis-tipos-dados" />
@@ -51,8 +69,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="dev.gab.kickstart.aula6.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dev.gab.kickstart.aula6.Main" />
+      <module name="modulo-variaveis-tipos-dados" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dev.gab.kickstart.aula6.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.dev.gab.kickstart.aula6.Main" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -74,7 +106,15 @@
       <option name="project" value="LOCAL" />
       <updated>1735608244700</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Explorando tipos de dados">
+      <option name="closed" value="true" />
+      <created>1735608310281</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1735608310281</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
