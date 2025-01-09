@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a9d8c1b9-6391-48bb-9153-653c1bba3f1b" name="Changes" comment="Explorando tipos de dados">
-      <change afterPath="$PROJECT_DIR$/src/dev/gab/kickstart/aula5/exercicios/sistemaLiberacoes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dev/gab/kickstart/aula6/Main.java" afterDir="false" />
+    <list default="true" id="a9d8c1b9-6391-48bb-9153-653c1bba3f1b" name="Changes" comment="Tipos de dados numericos">
+      <change afterPath="$PROJECT_DIR$/src/dev/gab/kickstart/aula6/exercicios/Elevador.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dev/gab/kickstart/aula7/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dev/gab/kickstart/aula7/exercicios/Paciente.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -36,6 +37,9 @@
     &quot;accountId&quot;: &quot;09cd331c-c481-4a22-bbb4-221eefd7816c&quot;
   }
 }</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
 }</component>
@@ -47,21 +51,49 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Elevador.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.dev.gab.kickstart.aula6.Main.executor": "Run",
+    "Application.dev.gab.kickstart.aula7.Main.executor": "Run",
     "Application.sistemaLiberacoes.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.dev.gab.kickstart.aula6.Main">
+  <component name="RunManager" selected="Application.Paciente">
+    <configuration name="Elevador" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dev.gab.kickstart.aula6.exercicios.Elevador" />
+      <module name="modulo-variaveis-tipos-dados" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dev.gab.kickstart.aula6.exercicios.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="dev.gab.kickstart.aula5.Main" />
       <module name="modulo-variaveis-tipos-dados" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="dev.gab.kickstart.aula5.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Paciente" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dev.gab.kickstart.aula7.exercicios.Paciente" />
+      <module name="modulo-variaveis-tipos-dados" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dev.gab.kickstart.aula7.exercicios.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -82,8 +114,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="dev.gab.kickstart.aula7.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dev.gab.kickstart.aula7.Main" />
+      <module name="modulo-variaveis-tipos-dados" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dev.gab.kickstart.aula7.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Paciente" />
+        <item itemvalue="Application.dev.gab.kickstart.aula7.Main" />
+        <item itemvalue="Application.Elevador" />
         <item itemvalue="Application.dev.gab.kickstart.aula6.Main" />
         <item itemvalue="Application.Main" />
       </list>
@@ -114,11 +162,20 @@
       <option name="project" value="LOCAL" />
       <updated>1735608310281</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Tipos de dados numericos">
+      <option name="closed" value="true" />
+      <created>1736383683260</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1736383683260</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Explorando tipos de dados" />
-    <option name="LAST_COMMIT_MESSAGE" value="Explorando tipos de dados" />
+    <MESSAGE value="Tipos de dados numericos" />
+    <option name="LAST_COMMIT_MESSAGE" value="Tipos de dados numericos" />
   </component>
 </project>
