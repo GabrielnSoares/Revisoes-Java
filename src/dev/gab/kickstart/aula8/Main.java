@@ -6,7 +6,7 @@ public class Main {
 
     public static void main(String[] args) {
 
-        // boolean - true or false
+        /// boolean - true or false
         boolean  meuBooleano;
 
         System.out.println("É falso ou verdadeiro? ");
