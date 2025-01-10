@@ -4,10 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a9d8c1b9-6391-48bb-9153-653c1bba3f1b" name="Changes" comment="Tipos de dados numericos">
-      <change afterPath="$PROJECT_DIR$/src/dev/gab/kickstart/aula6/exercicios/Elevador.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dev/gab/kickstart/aula7/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dev/gab/kickstart/aula7/exercicios/Paciente.java" afterDir="false" />
+    <list default="true" id="a9d8c1b9-6391-48bb-9153-653c1bba3f1b" name="Changes" comment="Pontos flutuantes">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dev/gab/kickstart/aula10/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dev/gab/kickstart/aula10/exercicios/Casting.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dev/gab/kickstart/aula8/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dev/gab/kickstart/aula8/exercicios/verificaFraude.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dev/gab/kickstart/aula9/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dev/gab/kickstart/aula9/exercicios/Contador.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -51,23 +55,43 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Casting.executor": "Run",
+    "Application.Contador.executor": "Run",
     "Application.Elevador.executor": "Run",
     "Application.Main.executor": "Run",
+    "Application.Paciente.executor": "Run",
+    "Application.dev.gab.kickstart.aula10.Main.executor": "Run",
     "Application.dev.gab.kickstart.aula6.Main.executor": "Run",
     "Application.dev.gab.kickstart.aula7.Main.executor": "Run",
+    "Application.dev.gab.kickstart.aula8.Main.executor": "Run",
     "Application.sistemaLiberacoes.executor": "Run",
+    "Application.verificaFraude.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Paciente">
-    <configuration name="Elevador" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dev.gab.kickstart.aula6.exercicios.Elevador" />
+  <component name="RunManager" selected="Application.Casting">
+    <configuration name="Casting" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dev.gab.kickstart.aula10.exercicios.Casting" />
       <module name="modulo-variaveis-tipos-dados" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dev.gab.kickstart.aula6.exercicios.*" />
+          <option name="PATTERN" value="dev.gab.kickstart.aula10.exercicios.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Contador" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dev.gab.kickstart.aula9.exercicios.Contador" />
+      <module name="modulo-variaveis-tipos-dados" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dev.gab.kickstart.aula9.exercicios.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -76,11 +100,11 @@
       </method>
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dev.gab.kickstart.aula5.Main" />
+      <option name="MAIN_CLASS_NAME" value="dev.gab.kickstart.aula9.Main" />
       <module name="modulo-variaveis-tipos-dados" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dev.gab.kickstart.aula5.*" />
+          <option name="PATTERN" value="dev.gab.kickstart.aula9.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -88,12 +112,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Paciente" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dev.gab.kickstart.aula7.exercicios.Paciente" />
+    <configuration name="dev.gab.kickstart.aula10.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dev.gab.kickstart.aula10.Main" />
       <module name="modulo-variaveis-tipos-dados" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dev.gab.kickstart.aula7.exercicios.*" />
+          <option name="PATTERN" value="dev.gab.kickstart.aula10.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -101,25 +125,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="dev.gab.kickstart.aula6.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dev.gab.kickstart.aula6.Main" />
+    <configuration name="verificaFraude" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dev.gab.kickstart.aula8.exercicios.verificaFraude" />
       <module name="modulo-variaveis-tipos-dados" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dev.gab.kickstart.aula6.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="dev.gab.kickstart.aula7.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dev.gab.kickstart.aula7.Main" />
-      <module name="modulo-variaveis-tipos-dados" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="dev.gab.kickstart.aula7.*" />
+          <option name="PATTERN" value="dev.gab.kickstart.aula8.exercicios.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -129,11 +140,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Paciente" />
-        <item itemvalue="Application.dev.gab.kickstart.aula7.Main" />
-        <item itemvalue="Application.Elevador" />
-        <item itemvalue="Application.dev.gab.kickstart.aula6.Main" />
+        <item itemvalue="Application.Casting" />
+        <item itemvalue="Application.dev.gab.kickstart.aula10.Main" />
+        <item itemvalue="Application.Contador" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.verificaFraude" />
       </list>
     </recent_temporary>
   </component>
@@ -170,12 +181,21 @@
       <option name="project" value="LOCAL" />
       <updated>1736383683260</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Pontos flutuantes">
+      <option name="closed" value="true" />
+      <created>1736387081425</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1736387081425</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Explorando tipos de dados" />
     <MESSAGE value="Tipos de dados numericos" />
-    <option name="LAST_COMMIT_MESSAGE" value="Tipos de dados numericos" />
+    <MESSAGE value="Pontos flutuantes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Pontos flutuantes" />
   </component>
 </project>
