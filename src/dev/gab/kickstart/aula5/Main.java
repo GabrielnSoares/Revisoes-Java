@@ -6,7 +6,7 @@ public class Main {
 
     public static void main(String[] args) {
 
-        // 1. Perguntar pro Usuario qual numero ele quer digitar
+        /// 1. Perguntar pro Usuario qual numero ele quer digitar
         System.out.println("Usuario, digite um número: ");
 
         // 2. Ler o número que o usuário digitou

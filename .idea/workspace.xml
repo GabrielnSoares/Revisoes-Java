@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a9d8c1b9-6391-48bb-9153-653c1bba3f1b" name="Changes" comment="Coversão de tipos de dados">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="a9d8c1b9-6391-48bb-9153-653c1bba3f1b" name="Changes" comment="ajustes de formatacao" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,6 +19,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {
@@ -61,7 +60,7 @@
     "Application.verificaFraude.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
@@ -198,7 +197,15 @@
       <option name="project" value="LOCAL" />
       <updated>1736479058506</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="ajustes de formatacao">
+      <option name="closed" value="true" />
+      <created>1736549309732</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1736549309732</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -206,6 +213,7 @@
     <MESSAGE value="Tipos de dados numericos" />
     <MESSAGE value="Pontos flutuantes" />
     <MESSAGE value="Coversão de tipos de dados" />
-    <option name="LAST_COMMIT_MESSAGE" value="Coversão de tipos de dados" />
+    <MESSAGE value="ajustes de formatacao" />
+    <option name="LAST_COMMIT_MESSAGE" value="ajustes de formatacao" />
   </component>
 </project>
