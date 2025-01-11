@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a9d8c1b9-6391-48bb-9153-653c1bba3f1b" name="Changes" comment="ajustes de formatacao" />
+    <list default="true" id="a9d8c1b9-6391-48bb-9153-653c1bba3f1b" name="Changes" comment="teste">
+      <change afterPath="$PROJECT_DIR$/src/dev/gab/kickstart/aula11/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dev/gab/kickstart/aula11/exercicios/operadoresAritmeticos.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dev/gab/kickstart/aula11/exercicios/operadoresAritmeticosv2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,7 +24,6 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {
@@ -53,9 +57,12 @@
     "Application.Main.executor": "Run",
     "Application.Paciente.executor": "Run",
     "Application.dev.gab.kickstart.aula10.Main.executor": "Run",
+    "Application.dev.gab.kickstart.aula11.Main.executor": "Run",
     "Application.dev.gab.kickstart.aula6.Main.executor": "Run",
     "Application.dev.gab.kickstart.aula7.Main.executor": "Run",
     "Application.dev.gab.kickstart.aula8.Main.executor": "Run",
+    "Application.operadoresAritmeticos.executor": "Run",
+    "Application.operadoresAritmeticosv2.executor": "Run",
     "Application.sistemaLiberacoes.executor": "Run",
     "Application.verificaFraude.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -64,26 +71,13 @@
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Casting">
+  <component name="RunManager" selected="Application.operadoresAritmeticosv2">
     <configuration name="Casting" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dev.gab.kickstart.aula10.exercicios.Casting" />
+      <option name="MAIN_CLASS_NAME" value="dev.gab.kickstart.variaveisTiposDados.aula10.exercicios.Casting" />
       <module name="modulo-variaveis-tipos-dados" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dev.gab.kickstart.aula10.exercicios.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Contador" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dev.gab.kickstart.aula9.exercicios.Contador" />
-      <module name="modulo-variaveis-tipos-dados" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="dev.gab.kickstart.aula9.exercicios.*" />
+          <option name="PATTERN" value="dev.gab.kickstart.variaveisTiposDados.aula10.exercicios.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -92,11 +86,11 @@
       </method>
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dev.gab.kickstart.aula9.Main" />
+      <option name="MAIN_CLASS_NAME" value="dev.gab.kickstart.variaveisTiposDados.aula10.Main" />
       <module name="modulo-variaveis-tipos-dados" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dev.gab.kickstart.aula9.*" />
+          <option name="PATTERN" value="dev.gab.kickstart.variaveisTiposDados.aula10.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -104,12 +98,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="dev.gab.kickstart.aula10.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dev.gab.kickstart.aula10.Main" />
+    <configuration name="dev.gab.kickstart.variaveisTiposDados.aula11.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dev.gab.kickstart.variaveisTiposDados.aula11.Main" />
       <module name="modulo-variaveis-tipos-dados" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dev.gab.kickstart.aula10.*" />
+          <option name="PATTERN" value="dev.gab.kickstart.variaveisTiposDados.aula11.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -117,12 +111,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="verificaFraude" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dev.gab.kickstart.aula8.exercicios.verificaFraude" />
+    <configuration name="operadoresAritmeticos" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dev.gab.kickstart.variaveisTiposDados.aula11.exercicios.operadoresAritmeticos" />
       <module name="modulo-variaveis-tipos-dados" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dev.gab.kickstart.aula8.exercicios.*" />
+          <option name="PATTERN" value="dev.gab.kickstart.variaveisTiposDados.aula11.exercicios.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="operadoresAritmeticosv2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dev.gab.kickstart.variaveisTiposDados.aula11.exercicios.operadoresAritmeticosv2" />
+      <module name="modulo-variaveis-tipos-dados" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dev.gab.kickstart.variaveisTiposDados.aula11.exercicios.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -132,11 +139,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.operadoresAritmeticosv2" />
+        <item itemvalue="Application.operadoresAritmeticos" />
+        <item itemvalue="Application.dev.gab.kickstart.variaveisTiposDados.aula11.Main" />
         <item itemvalue="Application.Casting" />
         <item itemvalue="Application.dev.gab.kickstart.aula10.Main" />
-        <item itemvalue="Application.Contador" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.verificaFraude" />
       </list>
     </recent_temporary>
   </component>
@@ -205,7 +212,15 @@
       <option name="project" value="LOCAL" />
       <updated>1736549309732</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="teste">
+      <option name="closed" value="true" />
+      <created>1736549668167</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1736549668167</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -214,6 +229,7 @@
     <MESSAGE value="Pontos flutuantes" />
     <MESSAGE value="Coversão de tipos de dados" />
     <MESSAGE value="ajustes de formatacao" />
-    <option name="LAST_COMMIT_MESSAGE" value="ajustes de formatacao" />
+    <MESSAGE value="teste" />
+    <option name="LAST_COMMIT_MESSAGE" value="teste" />
   </component>
 </project>
